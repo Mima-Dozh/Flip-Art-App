@@ -107,6 +107,8 @@ function startAnimation() {
 }
 
 function clearConfiguration() {
+    let scene = document.getElementById("scence");
+    scene.style.backgroundImage = "";
     let thumbnail = document.getElementsByClassName("thumbnail");
     let stop_button = document.getElementById("stop");
     stop_button.click();
