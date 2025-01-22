@@ -1,0 +1,132 @@
+body {
+  align-items: center;
+}
+#toolbar {
+  width: 200px;
+  height: 40px;
+  margin: auto;
+}
+#toolbar button {
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 49%;
+  width: 100%;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+
+  cursor: default;
+  box-sizing: border-box;
+}
+
+#start {
+  background-color: green;
+}
+
+#start:active {
+  background-color: darkgreen;
+}
+
+#stop {
+  display: none;
+  background-color: red;
+}
+
+#stop:active {
+  background-color: darkred;
+}
+
+#clear {
+  background-color: #888;
+}
+
+#clear:active {
+  background-color: #666;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 400px;
+  margin: auto;
+}
+div {
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.plate{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 100%;
+  width: 12%;
+  margin: auto;
+}
+form {
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 0%;
+  width: 400px;
+  border: 1px solid black;
+  height: 50px;
+  text-align: center;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+input[type="range"] {
+  width: 100%;
+  margin: auto;
+}
+.thumbnail {
+  display: flex;
+}
+.scence,
+.panel button,
+.panel .thumbnail {
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 49%;
+  width: 100%;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+
+  cursor: default;
+  box-sizing: border-box;
+
+  font-size: 32px;
+  transition: all ease-out 0.1s;
+}
+.panel button:hover {
+  color: #ccc;
+  background-color: #333;
+}
+
+.panel .thumbnail:hover {
+  box-shadow:inset 0 0 0 150vw rgba(0,0,0,0.5);
+}
+
+.plate input[type="file"] {
+  display: none;
+}
+.scence {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.range {
+  position: absolute;
+  z-index:  100;
+  height: 10%;
+  width: 21%;
+  background-color: aqua;
+  display: inline-block;
+  align-self: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
