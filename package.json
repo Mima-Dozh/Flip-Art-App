@@ -1,0 +1,23 @@
+{
+  "name": "flip-art-app",
+  "version": "1.0.0",
+  "description": "stady",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mima-Dozh/Flip-Art-App.git"
+  },
+  "author": "mima_dozh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mima-Dozh/Flip-Art-App/issues"
+  },
+  "homepage": "https://github.com/Mima-Dozh/Flip-Art-App#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
